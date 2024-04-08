@@ -2,6 +2,8 @@ name: packer
 
 on:
   push:
+    branches:    
+      - '**'        # matches every branch
 
 env:
   PRODUCT_VERSION: '1.8.6' # or: "latest"
