@@ -1,6 +1,8 @@
 name: packer
 "on":
-  push: null
+  push:
+    branches:
+    - '**'
 env:
   PRODUCT_VERSION: latest
 jobs:
