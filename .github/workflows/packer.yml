@@ -4,7 +4,7 @@ on:
   push:
 
 env:
-  PRODUCT_VERSION: '1.8.6' # or: "latest"
+  PRODUCT_VERSION: "latest"
 
 jobs:
   packer:
